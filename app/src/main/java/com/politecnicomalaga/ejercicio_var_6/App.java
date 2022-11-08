@@ -14,9 +14,9 @@ public class App {
         int factura = miScan.nextInt();
         
         double iva = factura * 0.21;
-        double noiva = factura - iva;
+        double coniva = factura + iva;
         
-        System.out.println("La factura sin iva es: " + noiva);
+        System.out.println("La factura con iva es: " + coniva);
 
     }
 }
